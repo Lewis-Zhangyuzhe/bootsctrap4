@@ -30,7 +30,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                    <button type="button" class="btn btn-primary" id="loginButton">
                         <span class="fa fa-sign-in"></span> Login
                     </button>
                 </span>
@@ -95,7 +95,7 @@
                         data-placement="bottom">Reserve Table</a>
                 </div> -->
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-warning btn-lg text-white" data-toggle="modal" data-target="#reserveModal">
+                    <button type="button" class="btn btn-warning btn-lg text-white" id="reserveButton">
                         Reserve Table
                     </button>
                 </div>
@@ -387,12 +387,13 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="JS/scripts.js"></script>
     <!-- <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
     </script> -->
-    <script>
+    <!-- <script>
         $(document).ready(function(){
             $("#mycarousel").carousel( { interval: 2000 } );
             $("#carouselButton").click(function(){
@@ -410,7 +411,7 @@
             });
 
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
